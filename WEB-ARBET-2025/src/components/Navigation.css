@@ -40,6 +40,8 @@
 
 .navbar .nav-wrapper ul li{
    list-style-type: none;
+   text-decoration: none;
    padding: 0 10px;
+
 }
 

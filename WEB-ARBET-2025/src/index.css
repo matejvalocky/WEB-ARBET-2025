@@ -13,3 +13,21 @@ body{
     font-style: normal;
 }
 
+
+
+/* definovanie použitých farieb v celej stránke do premenných */
+:root{
+    --navbar-bg: #FFFFFF;
+    --navbar-font-color: #999999;
+    --logo-orange-color: #FF5401;
+    
+}
+
+
+
+/* box shadow pre celú stránku */
+.box-shadow{
+    -webkit-box-shadow: 0px 7px 20px -14px rgba(0,0,0,0.62);
+    -moz-box-shadow: 0px 7px 20px -14px rgba(0,0,0,0.62);
+    box-shadow: 0px 7px 20px -14px rgba(0,0,0,0.62);
+}

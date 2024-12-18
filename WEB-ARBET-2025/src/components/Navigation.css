@@ -1,0 +1,44 @@
+
+/* Hlavná navigácia */
+
+.navbar{
+    width: 100%;
+    height: 105px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar .nav-wrapper{
+    width: 1200px;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* logo image */
+.navbar .nav-wrapper img{
+    width: 70px;
+    height: 70px;
+}
+
+.navbar .nav-wrapper ul{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+.navbar .nav-wrapper ul li{
+   list-style-type: none;
+   padding: 0 10px;
+}
+

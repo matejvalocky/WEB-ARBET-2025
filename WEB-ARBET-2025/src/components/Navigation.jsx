@@ -14,19 +14,44 @@ const Navigation = () => {
         <img src={logo} alt="Logo" />
         <ul>
           <li>
-            <NavLink to="/" activeClassName="active">{lang[currentLang]["nav-home"]}</NavLink>
+            <NavLink
+              to="/"
+              className={({ isActive }) => (isActive ? "active" : "")} // Dynamické nastavenie aktívnej triedy
+            >
+              {lang[currentLang]["nav-home"]}
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/buildings" activeClassName="active">{lang[currentLang]["nav-buildings"]}</NavLink>
+            <NavLink
+              to="/buildings"
+              className={({ isActive }) => (isActive ? "active" : "")} // Dynamické nastavenie aktívnej triedy
+            >
+              {lang[currentLang]["nav-buildings"]}
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/projects" activeClassName="active">{lang[currentLang]["nav-projects"]}</NavLink>
+            <NavLink
+              to="/projects"
+              className={({ isActive }) => (isActive ? "active" : "")} // Dynamické nastavenie aktívnej triedy
+            >
+              {lang[currentLang]["nav-projects"]}
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/about" activeClassName="active">{lang[currentLang]["nav-about"]}</NavLink>
+            <NavLink
+              to="/about"
+              className={({ isActive }) => (isActive ? "active" : "")} // Dynamické nastavenie aktívnej triedy
+            >
+              {lang[currentLang]["nav-about"]}
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" activeClassName="active">{lang[currentLang]["nav-contact"]}</NavLink>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) => (isActive ? "active" : "")} // Dynamické nastavenie aktívnej triedy
+            >
+              {lang[currentLang]["nav-contact"]}
+            </NavLink>
           </li>
         </ul>
         <LanguageSwitcher />

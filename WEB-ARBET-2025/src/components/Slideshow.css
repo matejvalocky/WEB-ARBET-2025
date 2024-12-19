@@ -13,10 +13,17 @@
     background-position: center;
     width: 100%;
     height: 100%;
-    transition: background-image 1s ease-in-out; /* Plynulý prechod medzi obrázkami */
+    position: relative;
+    display: flex; /* Umožňuje centrovať nadpis */
+    align-items: center; /* Vertikálne centrovanie */
+    justify-content: center; /* Horizontálne centrovanie */
   }
   
-  .slideshow:active {
-    cursor: grabbing; /* Zmena kurzora pri ťahu */
+  .slideshow-title {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Efekt textu */
+    z-index: 1; /* Uistíme sa, že je nad obrázkom */
+    text-align: center;
   }
   

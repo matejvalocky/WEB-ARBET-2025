@@ -1,0 +1,23 @@
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    touch-action: pan-x; /* Podpora swipe */
+  }
+  
+  .slideshow-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out; /* Plynulý prechod */
+  }
+  
+  .slideshow:active {
+    cursor: grabbing; /* Zmena kurzora pri ťahu */
+  }
+  

@@ -1,49 +1,38 @@
-// KOMPONENTA Navigácie:
-// components/Navigation.jsx
-import { Link } from 'react-router-dom'
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
+import "./Navigation.css";
+import logo from "../assets/nav-logo.avif";
+import { useLanguage } from "../../src/LanguageContext";
 
-
-// importovanie css štýlov
-import "./Navigation.css"
-
-
-
-// import obrázkov
-import logo from "../assets/nav-logo.avif"
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Navigation = () => {
-    return (
-        <nav className='navbar box-shadow'>
-            <div className="nav-wrapper">
-                <img src={logo} alt="" />
-                <ul>
-                    <li>
-                        <NavLink to="/" activeClassName="active">Domov</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/buildings" activeClassName="active">Stavby</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/projects" activeClassName="active">Projekty</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/about" activeClassName="active">O nás</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/contact" activeClassName="active">Kontakt</NavLink>
-                    </li>
-                </ul>
-            </div>
+  const { currentLang, lang } = useLanguage();
 
+  return (
+    <nav className="navbar box-shadow">
+      <div className="nav-wrapper">
+        <img src={logo} alt="Logo" />
+        <ul>
+          <li>
+            <NavLink to="/" activeClassName="active">{lang[currentLang]["nav-home"]}</NavLink>
+          </li>
+          <li>
+            <NavLink to="/buildings" activeClassName="active">{lang[currentLang]["nav-buildings"]}</NavLink>
+          </li>
+          <li>
+            <NavLink to="/projects" activeClassName="active">{lang[currentLang]["nav-projects"]}</NavLink>
+          </li>
+          <li>
+            <NavLink to="/about" activeClassName="active">{lang[currentLang]["nav-about"]}</NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact" activeClassName="active">{lang[currentLang]["nav-contact"]}</NavLink>
+          </li>
+        </ul>
+        <LanguageSwitcher />
+      </div>
+    </nav>
+  );
+};
 
-
-
-        </nav>
-    )
-}
-
-export default Navigation
-
-
-
+export default Navigation;

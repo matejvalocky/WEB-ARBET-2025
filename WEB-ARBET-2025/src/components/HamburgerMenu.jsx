@@ -20,29 +20,21 @@ const HamburgerMenu = () => {
         <div className="nav">
           <ul>
             <li>
-              <a href="#" data-text={lang[currentLang]["nav-home"]}>
-              {lang[currentLang]["nav-home"]}
-              </a>
+                <Link to="/"> {lang[currentLang]["nav-home"]}</Link>
             </li>
             <li>
-              <a href="#" data-text= {lang[currentLang]["nav-buildings"]}>
-              {lang[currentLang]["nav-buildings"]}
-              </a>
+                <Link to="/buildings">  {lang[currentLang]["nav-buildings"]}</Link>
             </li>
             <li>
-              <a href="#" data-text= {lang[currentLang]["nav-projects"]}>
-              {lang[currentLang]["nav-projects"]}
-              </a>
+            <Link to="/projects">  {lang[currentLang]["nav-projects"]}</Link>
+            
+             
             </li>
             <li>
-              <a href="#" data-text= {lang[currentLang]["nav-about"]}>
-              {lang[currentLang]["nav-about"]}
-              </a>
+                <Link to="/about">  {lang[currentLang]["nav-about"]}</Link>
             </li>
             <li>
-              <a href="#" data-text= {lang[currentLang]["nav-contact"]}>
-              {lang[currentLang]["nav-contact"]}
-              </a>
+            <Link to="/contact">  {lang[currentLang]["nav-contact"]}</Link>
             </li>
   
           </ul>

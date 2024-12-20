@@ -22,7 +22,7 @@ body {
   align-items: center;
   background: var(--logo-dark-grey-color-trans);
   backdrop-filter: blur(10px);
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .fullPageMenu.active {
@@ -33,6 +33,7 @@ body {
 
 .fullPageMenu .nav {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -44,7 +45,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .fullPageMenu .nav ul li {
@@ -66,13 +67,13 @@ body {
   background: var(--logo-orange-color);
   transition: transform 0.5s ease-in-out;
   transform: scaleY(0);
-  transform-origin: bottom;
+  transform-origin: left;
 }
 
 .fullPageMenu .nav ul li:hover:before {
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.2s ease-in-out;
   transform: scaleY(1);
-  transform-origin: top;
+  transform-origin: right;
 }
 
 .fullPageMenu .nav ul li a {
@@ -85,22 +86,23 @@ body {
   display: inline-block;
   text-transform: uppercase;
   transition: 0.5s ease-in-out;
-}
+} 
 
 .fullPageMenu .nav ul li a::before {
+  
   content: attr(data-text);
   position: absolute;
   bottom: -100%;
   left: 0;
   color: #fff;
-}
+} 
 
 .fullPageMenu .nav ul li:hover a {
-  transform: translateY(-100%);
+  /* transform: translateY(-100%); */
   color: #fff;
-}
+} 
 
-.menuicon {
+ .menuicon {
   position: relative;
   width: 60px;
   height: 60px;
@@ -116,6 +118,6 @@ body {
   background-size: 40px;
   background-repeat: no-repeat;
   background-position: 10px;
-}
+} 
 
 

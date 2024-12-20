@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { useLanguage } from "../../src/LanguageContext";
 import "./HamburgerMenu.css";
 import "./HamburgerMenuMediaQueries.css"
 
@@ -6,7 +8,7 @@ import "./HamburgerMenuMediaQueries.css"
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(true);
-
+  const { currentLang, lang } = useLanguage();
   const menuToggle = () => {
     setIsOpen(!isOpen);
   };
@@ -18,35 +20,31 @@ const HamburgerMenu = () => {
         <div className="nav">
           <ul>
             <li>
-              <a href="#" data-text="Home">
-                Home
+              <a href="#" data-text={lang[currentLang]["nav-home"]}>
+              {lang[currentLang]["nav-home"]}
               </a>
             </li>
             <li>
-              <a href="#" data-text="About">
-                About
+              <a href="#" data-text= {lang[currentLang]["nav-buildings"]}>
+              {lang[currentLang]["nav-buildings"]}
               </a>
             </li>
             <li>
-              <a href="#" data-text="Services">
-                Services
+              <a href="#" data-text= {lang[currentLang]["nav-projects"]}>
+              {lang[currentLang]["nav-projects"]}
               </a>
             </li>
             <li>
-              <a href="#" data-text="Team">
-                Team
+              <a href="#" data-text= {lang[currentLang]["nav-about"]}>
+              {lang[currentLang]["nav-about"]}
               </a>
             </li>
             <li>
-              <a href="#" data-text="Portfolio">
-                Portfolio
+              <a href="#" data-text= {lang[currentLang]["nav-contact"]}>
+              {lang[currentLang]["nav-contact"]}
               </a>
             </li>
-            <li>
-              <a href="#" data-text="Contact">
-                Contact
-              </a>
-            </li>
+  
           </ul>
         </div>
       </div>

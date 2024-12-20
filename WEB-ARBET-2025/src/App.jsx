@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 // import komponentov
 import Navigation from "./components/Navigation";
-import Slideshow from "./components/Slideshow";
 
 // import stránok
 import Home from "./pages/Home";
@@ -19,7 +18,6 @@ const App = () => {
     <LanguageProvider>
       <Router>
         <Navigation /> {/* Navigácia, ktorá používa jazykový kontext */}
-        <Slideshow/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/buildings" element={<Buildings />} />

@@ -1,11 +1,14 @@
 import React from "react";
 import { useLanguage } from "../../src/LanguageContext";
 
+import Slideshow from "../components/Slideshow";
+
 const Home = () => {
   const { currentLang, lang } = useLanguage(); // Prístup k aktuálnemu jazyku a textom
 
   return (
     <div>
+      <Slideshow/>
       <h1>{lang[currentLang]["nav-home"]}</h1> {/* Dynamický nadpis pre "Domov" */}
       <p>
         {currentLang === "SK" &&

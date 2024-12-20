@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 // import komponentov
 import Navigation from "./components/Navigation";
-import LanguageSwitcher from "./components/LanguageSwitcher"; // Nový komponent na prepínanie jazykov
 import Slideshow from "./components/Slideshow";
 
 // import stránok

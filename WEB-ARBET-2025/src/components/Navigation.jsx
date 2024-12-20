@@ -2,7 +2,6 @@ import { NavLink } from "react-router-dom";
 import "./Navigation.css";
 import logo from "../assets/nav-logo.avif";
 import { useLanguage } from "../../src/LanguageContext";
-
 import LanguageSwitcher from "./LanguageSwitcher";
 
 const Navigation = () => {

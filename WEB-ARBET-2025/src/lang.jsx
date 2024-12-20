@@ -1,33 +1,48 @@
 const lang = {
-    SK: {
-      'nav-home': 'Domov',
-      'nav-buildings': 'Stavby',
-      'nav-projects': 'Projekty',
-      'nav-about': 'O nás',
-      'nav-contact': 'Kontakt',
-    },
-    EN: {
-      'nav-home': 'Home',
-      'nav-buildings': 'Buildings',
-      'nav-projects': 'Projects',
-      'nav-about': 'About',
-      'nav-contact': 'Contact',
-    },
-    PL: {
-      'nav-home': 'Strona główna',
-      'nav-buildings': 'Budynki',
-      'nav-projects': 'Projekty',
-      'nav-about': 'O nas',
-      'nav-contact': 'Kontakt',
-    },
-    NL: {
-      'nav-home': 'Home',
-      'nav-buildings': 'Gebouwen',
-      'nav-projects': 'Projecten',
-      'nav-about': 'Over ons',
-      'nav-contact': 'Contact',
-    },
-  };
-  
-  export default lang;
-  
+  SK: {
+    "langSelect": "Zvoľte jazyk",
+    "nav-home": "Domov",
+    "nav-buildings": "Stavby",
+    "nav-projects": "Projekty",
+    "nav-about": "O nás",
+    "nav-contact": "Kontakt",
+    "slideshow1-heading": "Popis prvého obrázku prezentácie",
+    "slideshow2-heading": "Popis druhého obrázku prezentácie",
+    "slideshow3-heading": "Popis tretieho obrázku prezentácie",
+  },
+  EN: {
+    "langSelect": "Select Language",
+    "nav-home": "Home",
+    "nav-buildings": "Buildings",
+    "nav-projects": "Projects",
+    "nav-about": "About",
+    "nav-contact": "Contact",
+    "slideshow1-heading": "Description of the first image in the presentation",
+    "slideshow2-heading": "Description of the second image in the presentation",
+    "slideshow3-heading": "Description of the third image in the presentation",
+  },
+  PL: {
+    "langSelect": "Wybierz język",
+    "nav-home": "Strona główna",
+    "nav-buildings": "Budynki",
+    "nav-projects": "Projekty",
+    "nav-about": "O nas",
+    "nav-contact": "Kontakt",
+    "slideshow1-heading": "Opis pierwszego obrazu w prezentacji",
+    "slideshow2-heading": "Opis drugiego obrazu w prezentacji",
+    "slideshow3-heading": "Opis trzeciego obrazu w prezentacji",
+  },
+  NL: {
+    "langSelect": "Selecteer taal",
+    "nav-home": "Home",
+    "nav-buildings": "Gebouwen",
+    "nav-projects": "Projecten",
+    "nav-about": "Over ons",
+    "nav-contact": "Contact",
+    "slideshow1-heading": "Beschrijving van het eerste beeld in de presentatie",
+    "slideshow2-heading": "Beschrijving van het tweede beeld in de presentatie",
+    "slideshow3-heading": "Beschrijving van het derde beeld in de presentatie",
+  },
+};
+
+export default lang;

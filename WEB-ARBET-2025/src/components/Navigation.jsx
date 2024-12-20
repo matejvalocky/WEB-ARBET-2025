@@ -1,8 +1,11 @@
 import { NavLink } from "react-router-dom";
 import "./Navigation.css";
+import "./NavigationQueries.css"
 import logo from "../assets/nav-logo.avif";
 import { useLanguage } from "../../src/LanguageContext";
 import LanguageSwitcher from "./LanguageSwitcher";
+
+import HamburgerMenu from "./HamburgerMenu";
 
 const Navigation = () => {
   const { currentLang, lang } = useLanguage();
@@ -54,6 +57,7 @@ const Navigation = () => {
           </li>
         </ul>
         <LanguageSwitcher />
+        <HamburgerMenu/>
       </div>
     </nav>
   );

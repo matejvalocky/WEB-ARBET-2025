@@ -50,6 +50,14 @@ const Navigation = () => {
           </li>
           <li>
             <NavLink
+              to="/products"
+              className={({ isActive }) => (isActive ? "active" : "")} // Dynamické nastavenie aktívnej triedy
+            >
+              {lang[currentLang]["nav-products"]}
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to="/contact"
               className={({ isActive }) => (isActive ? "active" : "")} // Dynamické nastavenie aktívnej triedy
             >

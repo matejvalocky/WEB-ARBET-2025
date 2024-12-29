@@ -1,5 +1,9 @@
-@media (max-width: 999px) {
+@media (max-width: 1119px) {
     .navbar .nav-wrapper ul{
         display: none;
+    }
+
+    .navbar{
+        height: 80px;
     }
 }

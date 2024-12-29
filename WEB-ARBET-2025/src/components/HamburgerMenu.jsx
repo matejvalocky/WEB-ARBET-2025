@@ -30,6 +30,9 @@ const HamburgerMenu = () => {
               <Link to="/about"> {lang[currentLang]["nav-about"]}</Link>
             </li>
             <li>
+              <Link to="/products"> {lang[currentLang]["nav-products"]}</Link>
+            </li>
+            <li>
               <Link to="/contact"> {lang[currentLang]["nav-contact"]}</Link>
             </li>
           </ul>

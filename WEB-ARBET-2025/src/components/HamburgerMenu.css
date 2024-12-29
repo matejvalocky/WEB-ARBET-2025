@@ -105,11 +105,19 @@ body {
 } 
 
 .menu {
+  position: relative;
+  left: 10px;
+  width: 70px;
+  height: 70px;
   z-index: 10;
   background-color: transparent;
   border: none;
+  /* border: 1px solid var(--border-navigation-color); */
   cursor: pointer;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   padding: 0;
 }
 

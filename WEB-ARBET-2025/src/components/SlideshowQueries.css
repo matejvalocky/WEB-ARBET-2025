@@ -2,7 +2,7 @@
 @media (max-width: 1000px) { 
     .slideshow-image {
         height: auto; /* Aby sa zachoval pomer strán */
-        aspect-ratio: 16 / 9; /* Nastaví pomer strán 16:9 */
+        aspect-ratio: 1.844/1; /* Nastaví pomer strán */
     }
       
     .slideshow {

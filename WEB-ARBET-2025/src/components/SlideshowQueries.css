@@ -1,6 +1,17 @@
 /* zmeny pod 1000px šírky */
 @media (max-width: 1000px) { 
-    
+    .slideshow-image {
+        height: auto; /* Aby sa zachoval pomer strán */
+        aspect-ratio: 16 / 9; /* Nastaví pomer strán 16:9 */
+    }
       
+    .slideshow {
+        width: auto;
+        height: auto;
+      }
+
+      .slideshow-title {
+        font-size: 2rem;
+      }
 
  }

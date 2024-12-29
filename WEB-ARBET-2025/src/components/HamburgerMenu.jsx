@@ -12,28 +12,44 @@ const HamburgerMenu = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(true);
+  };
+
   return (
     <>
       <div className={`fullPageMenu ${isOpen ? "active" : ""}`} id="nav">
         <div className="nav">
           <ul>
             <li>
-              <Link to="/"> {lang[currentLang]["nav-home"]}</Link>
+              <Link to="/" onClick={closeMenu}>
+                {lang[currentLang]["nav-home"]}
+              </Link>
             </li>
             <li>
-              <Link to="/buildings"> {lang[currentLang]["nav-buildings"]}</Link>
+              <Link to="/buildings" onClick={closeMenu}>
+                {lang[currentLang]["nav-buildings"]}
+              </Link>
             </li>
             <li>
-              <Link to="/projects"> {lang[currentLang]["nav-projects"]}</Link>
+              <Link to="/projects" onClick={closeMenu}>
+                {lang[currentLang]["nav-projects"]}
+              </Link>
             </li>
             <li>
-              <Link to="/about"> {lang[currentLang]["nav-about"]}</Link>
+              <Link to="/about" onClick={closeMenu}>
+                {lang[currentLang]["nav-about"]}
+              </Link>
             </li>
             <li>
-              <Link to="/products"> {lang[currentLang]["nav-products"]}</Link>
+              <Link to="/products" onClick={closeMenu}>
+                {lang[currentLang]["nav-products"]}
+              </Link>
             </li>
             <li>
-              <Link to="/contact"> {lang[currentLang]["nav-contact"]}</Link>
+              <Link to="/contact" onClick={closeMenu}>
+                {lang[currentLang]["nav-contact"]}
+              </Link>
             </li>
           </ul>
         </div>
@@ -41,7 +57,7 @@ const HamburgerMenu = () => {
 
       <button
         id="toggle"
-        className={`menu ${isOpen ?  "" : "opened"}`}
+        className={`menu ${isOpen ? "" : "opened"}`}
         onClick={menuToggle}
         aria-label="Main Menu"
         aria-expanded={isOpen}

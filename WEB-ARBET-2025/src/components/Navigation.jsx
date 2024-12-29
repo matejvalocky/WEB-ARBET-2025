@@ -13,7 +13,8 @@ const Navigation = () => {
   return (
     <nav className="navbar box-shadow">
       <div className="nav-wrapper">
-        <img src={logo} className="main-logo" alt="Logo" />
+      <NavLink to="/"> <img src={logo} className="main-logo" alt="Logo" /></NavLink>
+       
         <ul>
           <li>
             <NavLink

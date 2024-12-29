@@ -1,0 +1,9 @@
+@media (max-width: 1119px) {
+    .language-switcher{
+        font-size: 20px;
+    }
+    
+    .language-switcher select{
+        font-size: 20px;
+    }
+}

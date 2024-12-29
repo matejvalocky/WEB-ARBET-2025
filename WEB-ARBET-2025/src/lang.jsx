@@ -1,6 +1,7 @@
 const lang = {
   SK: {
-    "langSelect": "Zvoľte jazyk",
+    "actualLang": "Aktuálny jazyk je",
+    "langSelect": "Slovenčina",
     "nav-home": "Domov",
     "nav-buildings": "Stavby",
     "nav-projects": "Projekty",
@@ -12,7 +13,8 @@ const lang = {
     "slideshow3-heading": "Popis tretieho obrázku prezentácie",
   },
   EN: {
-    "langSelect": "Select Language",
+    "actualLang": "Current language is",
+    "langSelect": "English",
     "nav-home": "Home",
     "nav-buildings": "Buildings",
     "nav-projects": "Projects",
@@ -24,7 +26,8 @@ const lang = {
     "slideshow3-heading": "Description of the third image in the presentation",
   },
   PL: {
-    "langSelect": "Wybierz język",
+    "actualLang": "Obecny język to",
+    "langSelect": "Polski",
     "nav-home": "Strona główna",
     "nav-buildings": "Budynki",
     "nav-projects": "Projekty",
@@ -36,7 +39,8 @@ const lang = {
     "slideshow3-heading": "Opis trzeciego obrazu w prezentacji",
   },
   NL: {
-    "langSelect": "Selecteer taal",
+    "actualLang": "De huidige taal is",
+    "langSelect": "Nederlands",
     "nav-home": "Home",
     "nav-buildings": "Gebouwen",
     "nav-projects": "Projecten",

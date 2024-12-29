@@ -1,13 +1,14 @@
 import React from "react";
 import { useLanguage } from "../../src/LanguageContext";
 import "./LanguageSwitcher.css";
+import "./LanguageSwitcherQueries.css"
 
 const LanguageSwitcher = () => {
   const { switchLanguage, currentLang, lang } = useLanguage();
 
   return (
     <div className="language-switcher">
-      <label htmlFor="language-select">{lang[currentLang].langSelect}:</label>
+      <label htmlFor="language-select">{lang[currentLang].actualLang}:</label>
       <select
         id="language-select"
         value={currentLang}
@@ -22,4 +23,4 @@ const LanguageSwitcher = () => {
   );
 };
 
-export default LanguageSwitcher;
+export default LanguageSwitcher

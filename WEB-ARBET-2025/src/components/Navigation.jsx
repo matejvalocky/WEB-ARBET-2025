@@ -10,10 +10,18 @@ import HamburgerMenu from "./HamburgerMenu";
 const Navigation = () => {
   const { currentLang, lang } = useLanguage();
 
+
+
+  
+  // táto funkcia je použitá aj v HamburgerMenu komponente, teda je tu 2x
+  const closeMenu = () => {
+    setIsOpen(true);
+  };
+
   return (
     <nav className="navbar box-shadow">
       <div className="nav-wrapper">
-      <NavLink to="/"> <img src={logo} className="main-logo" alt="Logo" /></NavLink>
+      <NavLink to="/" onClick={closeMenu}> <img src={logo} className="main-logo" alt="Logo" /></NavLink>
        
         <ul>
           <li>

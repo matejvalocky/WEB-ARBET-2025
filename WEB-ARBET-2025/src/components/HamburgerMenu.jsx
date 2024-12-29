@@ -12,6 +12,8 @@ const HamburgerMenu = () => {
     setIsOpen(!isOpen);
   };
 
+
+  // táto funkcia je použitá aj v Navigation komponente, teda je tu 2x
   const closeMenu = () => {
     setIsOpen(true);
   };

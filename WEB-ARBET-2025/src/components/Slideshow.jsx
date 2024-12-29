@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import "./Slideshow.css";
+import "./SlideshowQueries.css"
 import { useLanguage } from "../../src/LanguageContext";
 
 // Import obrázkov

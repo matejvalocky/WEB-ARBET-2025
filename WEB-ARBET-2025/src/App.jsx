@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // import komponentov
 import Navigation from "./components/Navigation";
 
+
 // import stránok
 import Home from "./pages/Home";
 import Buildings from "./pages/Buildings";

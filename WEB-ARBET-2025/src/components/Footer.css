@@ -76,8 +76,20 @@ footer{
     padding: 0 10px;
 }
 
+.fast-navigation-section h4{
+    text-align: center;
+}
+
 .fast-navigation-section ul{
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fast-navigation-section ul li{
+    padding: 6px;
 }
 
 

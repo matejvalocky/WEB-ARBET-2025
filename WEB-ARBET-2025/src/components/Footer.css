@@ -9,6 +9,18 @@ footer{
     /* border: 1px red solid; */
 }
 
+footer p {
+    color: var(--navbar-font-color);
+}
+
+footer li{
+    color: var(--navbar-font-color);
+}
+
+footer h4{
+    color: var(--logo-orange-color);
+}
+
 
 .logo_contacts-section{
    min-width: 550px;
@@ -85,6 +97,7 @@ footer{
 
 .fast-navigation-section h4{
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .fast-navigation-section ul{
@@ -97,6 +110,7 @@ footer{
 
 .fast-navigation-section ul li{
     padding: 6px;
+    text-transform: uppercase;
 }
 
 

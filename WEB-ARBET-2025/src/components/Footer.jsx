@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Footer.css";
+import "./FooterQueries.css"
+
 
 import GoogleMap from "./GoogleMap";
 
@@ -16,7 +18,7 @@ const Footer = () => {
         </div>
 
         <div className="contact_info">
-          <div className="contact_info_sector sector">
+          <div className="contact_info_sector">
             <h4>Adresa spoločnosti</h4>
             <p>
               Arbet s. r. o., <br />
@@ -26,7 +28,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="contact_info_sector sector">
+          <div className="contact_info_sector">
             <h4>Faktúračné údaje</h4>
             <p>
               IČO: 44346891
@@ -36,7 +38,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="contact_info_sector sector">
+          <div className="contact_info_sector">
             <h4>Telefonický kontakt</h4>
 
             <p>

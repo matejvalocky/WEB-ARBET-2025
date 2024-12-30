@@ -1,0 +1,8 @@
+chod do adresára so stránkou (VITE)
+cd web-arbet-2025 
+
+
+
+npm run build  
+netlify deploy --prod
+dist

@@ -38,9 +38,16 @@ const Footer = () => {
 
                 <div className="contact_info_sector sector">
                     <h4>Telefonický kontakt</h4>
-                    <p>Žumpy, stavebniny: <b>0917 979 744</b>  <br />
-                    Stavby: <b>0918 808 988</b>  <br />
-                    Servis: <b>0918 999 959</b>  <br />
+
+                    <p>
+                    
+                    <span>Žumpy, stavebniny:</span> <b><a href="tel:+421917979744">0917 979 744</a></b>  <br />
+                    
+                    <span>Stavby:</span> <b><a href="tel:+421918808988">0918 808 988</a></b>  <br />
+
+                    
+                    <span>Servis:</span> <b><a href="tel:+421918999959">0918 999 959</a></b>  <br />
+
                     </p>
                 </div>
              

@@ -82,6 +82,28 @@ footer h4{
     /* background-color: blanchedalmond; */
   }
 
+  .contact_info_sector p span{
+    display: inline-block;
+   width: 182px;
+  }
+
+  .contact_info_sector p a{
+    text-decoration: none;
+    color: var(--logo-dark-grey-color-trans);
+  }
+
+  .contact_info_sector p a:hover{
+    color: var(--logo-orange-color);
+    transition: 0.2s ease all;
+  }
+
+  .contact_info_sector p a:not(:hover){
+    color: var(--logo-dark-grey-color-trans);
+    transition: 0.8s ease all;
+  }
+
+
+
 
 
 

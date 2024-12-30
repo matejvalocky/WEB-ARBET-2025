@@ -3,12 +3,12 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="box-shadow">
+    <footer>
 
 
 
 
-
+      
         <section className="logo_contacts-section">
             <div className="logo">
                 <div className="logo-inner">
@@ -20,26 +20,26 @@ const Footer = () => {
                 
                 <div className="contact_info_sector">
                     <h4>Adresa spoločnosti</h4>
-                    <p>adress <br /></p>
-                    adresss <br />
-                    adresss <br />
-                    adressss <br />
+                    <p>Arbet s. r. o., <br />
+                    Veličná 305 <br />
+                    027 54 Veličná <br />
+                    Slovensko </p>
                 </div>
 
                 <div className="contact_info_sector">
                     <h4>Faktúračné údaje</h4>
-                    <p>adress <br /></p>
-                    adresss <br />
-                    adresss <br />
-                    adressss <br />
+                    <p>IČO: 44346891<br />
+                    DIČ: 2022662345 <br />
+                    IČ DPH: SK2022662345 <br />
+                    </p>
                 </div>
 
                 <div className="contact_info_sector">
                     <h4>Telefonický kontakt</h4>
-                    <p>adress <br /></p>
-                    adresss <br />
-                    adresss <br />
-                    adressss <br />
+                    <p>Žumpy, stavebniny: <b>0917 979 744</b>  <br />
+                    Stavby: <b>0918 808 988</b>  <br />
+                    Servis: <b>0918 999 959</b>  <br />
+                    </p>
                 </div>
              
              
@@ -47,7 +47,7 @@ const Footer = () => {
         </section>
 
 
-
+       
         <section className="fast-navigation-section">
             <h4>Rýchla navigácia</h4>
             <ul>
@@ -62,7 +62,7 @@ const Footer = () => {
         </section>
 
 
-
+       
         <section className="map-section">
             map_section
         </section>

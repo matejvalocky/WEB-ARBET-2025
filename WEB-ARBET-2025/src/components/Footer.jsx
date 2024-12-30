@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
 
+import GoogleMap from "./GoogleMap";
+
 const Footer = () => {
   return (
     <footer>
@@ -64,7 +66,7 @@ const Footer = () => {
 
        
         <section className="map-section">
-
+<GoogleMap/>
         </section>
 
 

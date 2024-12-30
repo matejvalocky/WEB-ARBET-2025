@@ -18,7 +18,7 @@ const Footer = () => {
 
             <div className="contact_info">
                 
-                <div className="contact_info_sector">
+                <div className="contact_info_sector sector">
                     <h4>Adresa spoločnosti</h4>
                     <p>Arbet s. r. o., <br />
                     Veličná 305 <br />
@@ -26,7 +26,7 @@ const Footer = () => {
                     Slovensko </p>
                 </div>
 
-                <div className="contact_info_sector">
+                <div className="contact_info_sector sector">
                     <h4>Faktúračné údaje</h4>
                     <p>IČO: 44346891<br />
                     DIČ: 2022662345 <br />
@@ -34,7 +34,7 @@ const Footer = () => {
                     </p>
                 </div>
 
-                <div className="contact_info_sector">
+                <div className="contact_info_sector sector">
                     <h4>Telefonický kontakt</h4>
                     <p>Žumpy, stavebniny: <b>0917 979 744</b>  <br />
                     Stavby: <b>0918 808 988</b>  <br />
@@ -64,7 +64,7 @@ const Footer = () => {
 
        
         <section className="map-section">
-            map_section
+
         </section>
 
 

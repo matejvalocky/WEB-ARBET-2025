@@ -1,17 +1,18 @@
 footer{
     width: 100%;
-    height: 400px;
+    height: 350px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 15px 0;
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 
 
 .logo_contacts-section{
-    width: 35%;
+   min-width: 550px;
+   max-width: 550px;
     height: 100%;
     /* background-color: red; */
     display: flex;
@@ -24,9 +25,9 @@ footer{
 .logo {
     /* background-color: aqua;
     opacity: 0.5; */
-    width: 150px;
+    width: 250px;
     height: 100%;
-    padding: 10px;
+    padding: 15px;
   }
   
   .logo-inner {
@@ -41,44 +42,45 @@ footer{
   .contact_info{
     width: 100%;
     height: 100%;
-    /* background-color: azure;
-    opacity: 0.5; */
+    /* background-color: azure; */
+    /* opacity: 0.5; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    border-left: 1px var( --border-navigation-color) solid;
   }
-
-
+ 
+  .sector{
+    height: 50%;
+    padding: 30px;
+  }
 
   .contact_info_sector{
     width: 50%;
-    height: 50%;
-    padding: 15px;
+    
     /* background-color: blanchedalmond; */
     /* border: 1px black solid; */
   }
 
   .contact_info_sector:nth-child(3){
     width: 100%;
-    padding: 10px;
+    
     /* background-color: blanchedalmond; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start ;
   }
 
 
 
 
 .fast-navigation-section{
-    width: 10%;
-    width: 150px;
+    max-width: 170px;
+    min-width: 170px;
+   
     height: 100%;
-    /* background-color: rgb(204, 218, 22); */
-    padding: 15px;
+    
+    padding: 30px;
+    border-left: 1px var( --border-navigation-color) solid;
 }
 
 .fast-navigation-section h4{
@@ -101,7 +103,7 @@ footer{
 
 
 .map-section{
-    width: 55%;
+    width: 65%;
     height: 100%;
     background-color: green;
 }

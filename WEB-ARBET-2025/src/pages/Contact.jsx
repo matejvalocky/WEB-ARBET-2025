@@ -1,6 +1,8 @@
 import React from "react";
 import { useLanguage } from "../../src/LanguageContext";
 
+import Footer from "../components/Footer";
+
 const Contact = () => {
   const { currentLang, lang } = useLanguage(); // Prístup k aktuálnemu jazyku a textom
 
@@ -16,6 +18,7 @@ const Contact = () => {
           "To strona kontaktowa. Możesz się z nami skontaktować za pośrednictwem e-maila lub telefonu."}
         {currentLang === "NL" &&
           "Dit is een contactpagina. Je kunt ons bereiken via e-mail of telefoon."}
+          <Footer/>
       </p>
     </div>
   );

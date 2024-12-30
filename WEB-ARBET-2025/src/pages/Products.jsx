@@ -1,6 +1,8 @@
 import React from "react";
 import { useLanguage } from "../../src/LanguageContext";
 
+import Footer from "../components/Footer";
+
 const Products = () => {
   const { currentLang, lang } = useLanguage(); // Prístup k aktuálnemu jazyku a textom
 
@@ -17,6 +19,7 @@ const Products = () => {
         {currentLang === "NL" &&
           "Toto je stránka, kde sú produkty NL"}
       </p>
+      <Footer/>
     </div>
   );
 };

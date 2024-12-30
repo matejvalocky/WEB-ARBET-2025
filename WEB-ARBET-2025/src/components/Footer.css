@@ -136,10 +136,24 @@ footer h4{
 }
 
 .fast-navigation-section ul li{
-    padding: 6px;
+    padding: 6px 0;
     text-transform: uppercase;
 }
 
+.fast-navigation-section ul li a{
+  text-decoration: none;
+  color: var(--navbar-font-color);
+}
+
+.fast-navigation-section ul li a:hover{
+  color: var(--logo-orange-color);
+  transition: .2s ease all;
+}
+
+.fast-navigation-section ul li a:not(:hover){
+  color: var(--navbar-font-color);
+  transition: .8s ease all;
+}
 
 
 

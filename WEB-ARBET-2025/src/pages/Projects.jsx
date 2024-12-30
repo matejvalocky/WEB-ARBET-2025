@@ -1,6 +1,8 @@
 import React from "react";
 import { useLanguage } from "../../src/LanguageContext";
 
+import Footer from "../components/Footer";
+
 const Projects = () => {
   const { currentLang, lang } = useLanguage(); // Prístup k aktuálnemu jazyku a textom
 
@@ -17,6 +19,7 @@ const Projects = () => {
         {currentLang === "NL" &&
           "Dit is een pagina met informatie over onze projecten."}
       </p>
+      <Footer/>
     </div>
   );
 };

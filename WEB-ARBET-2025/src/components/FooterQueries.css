@@ -94,7 +94,7 @@
 @media (max-width: 590px){
 
     footer{
-        height: 1000px;
+        height: 1050px;
         justify-content: space-between
 
     }
@@ -107,7 +107,9 @@
 
       .contact_info_sector{
         min-width: 235px;  
-        text-align: center;   
+        text-align: center; 
+        
+        
     }
 
     .map-section{

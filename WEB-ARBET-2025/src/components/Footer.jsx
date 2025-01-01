@@ -11,7 +11,7 @@ import { useLanguage } from "../../src/LanguageContext";
 const Footer = () => {
   const { currentLang, lang } = useLanguage();
   return (
-    <footer>
+    <footer className="box-shadow-top">
       <section className="logo_contacts-section">
         <div className="logo">
           <div className="logo-inner"></div>
